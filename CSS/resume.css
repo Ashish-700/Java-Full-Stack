@@ -1,0 +1,98 @@
+.body{
+
+    margin:0,0,0,0;
+    padding:0,0,0,0;
+
+
+/* Resume Container */
+.bd {
+max-width: 800px;
+margin: 30px auto;
+padding: 25px;
+background: #ffffff;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+
+/* Name */
+h1 {
+text-align: center;
+color: #333;
+margin-bottom: 5px;
+}
+
+hr {
+border: none;
+height: 1px;
+background: #ddd;
+margin: 15px 0;
+}
+
+/* Links */
+a {
+text-decoration: none;
+color: #0073b1; /* LinkedIn blue */
+font-weight: bold;
+}
+a span {
+color: #333;
+font-weight: normal;
+}
+a:hover {
+text-decoration: underline;
+}
+
+/* Section Headings */
+h3 {
+margin-top: 25px;
+margin-bottom: 10px;
+color: #444;
+text-transform: uppercase;
+font-size: 18px;
+border-bottom: 2px solid #0073b1;
+display: inline-block;
+padding-bottom: 4px;
+}
+
+/* Lists */
+li {
+margin: 8px 0;
+line-height: 1.5;
+}
+
+/* Paragraphs */
+p {
+margin: 5px 0;
+color: #333;
+}
+
+/* Highlight */
+mark {
+background-color: #ffeb3b;
+padding: 2px 5px;
+border-radius: 3px;
+}
+
+/* Signature */
+h4 {
+margin-top: 20px;
+font-style: italic;
+}
+
+/* Contact Info */
+h4, .contact {
+color: #555;
+margin-top: 5px;
+}
+
+
+}
+
+.bd{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    margin:0,0,0,0;
+    background:#8cbed3;
+
+}

@@ -1,0 +1,43 @@
+.outer{
+
+    background:#97ccdc;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:auto;
+    background-image:linear-gradient(to right,rgba(100, 37, 37, 0.178),rgba(107, 40, 61, 0));
+   
+    
+
+}
+.out{
+margin:auto;
+padding-bottom: 5px;
+
+}
+.inner{
+    border:3px solid black;
+    padding:20px;
+    border-radius: 20px;
+    text-shadow: 1px 1px rgb(85, 81, 138);
+    height:auto;
+    background-image:linear-gradient(to right ,rgba(83, 50, 105, 0.364),rgba(18, 180, 18, 0.392));
+    input[type="text"],input[type="number"],input[type="email"]{
+        background-color: rgb(157, 173, 159);
+    }
+    input[type="submit"]{
+        width: 95%;
+        height:25px;
+        border-radius: 10px;
+        border:3px solid black;
+        background-color: blueviolet;
+           transition: background 0.3s ease, transform 0.2s ease;
+    }
+   
+    
+    
+}
+textarea{
+     background-color: rgb(157, 173, 159);
+}
