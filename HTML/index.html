@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>flex</title>
+    <style>
+        .flex-container{
+            display:flex;
+            flex-wrap:wrap;
+            align-content: stretch;
+
+        }
+        .flex-item{
+
+    width:200px;
+    height:75px;
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+    color:azure;
+    
+        }
+        #flex-item-1{
+            background-color: rgb(94, 50, 50);
+        }
+
+         #flex-item-2{
+            
+            flex-grow: 3;
+            background-color: rgb(83, 156, 162);
+        }
+         #flex-item-3{
+        flex-shrink: 2;
+            background-color: rgb(69, 36, 60);
+            order:4;
+        }
+         #flex-item-4{
+            background-color: rgb(69, 33, 36);
+           
+          
+        }
+         #flex-item-5{
+          
+            background-color: rgb(174, 160, 73);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello</h1>
+    
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-1">1 box</div>
+        <div class="flex-item" id="flex-item-2">2 box</div>
+        <div class="flex-item" id="flex-item-3">3 box</div>
+        <div class="flex-item" id="flex-item-4">4 box</div>
+        <div class="flex-item" id="flex-item-5">5 box</div>
+                        
+
+    </div>
 </body>
 </html>
