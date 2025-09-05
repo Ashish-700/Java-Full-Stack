@@ -3,60 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flex</title>
-    <style>
-        .flex-container{
-            display:flex;
-            flex-wrap:wrap;
-            align-content: stretch;
-
-        }
-        .flex-item{
-
-    width:200px;
-    height:75px;
-    background-color: aqua;
-    border: 2px solid black;
-    text-align: center;
-    color:azure;
-    
-        }
-        #flex-item-1{
-            background-color: rgb(94, 50, 50);
-        }
-
-         #flex-item-2{
-            
-            flex-grow: 3;
-            background-color: rgb(83, 156, 162);
-        }
-         #flex-item-3{
-        flex-shrink: 2;
-            background-color: rgb(69, 36, 60);
-            order:4;
-        }
-         #flex-item-4{
-            background-color: rgb(69, 33, 36);
-           
-          
-        }
-         #flex-item-5{
-          
-            background-color: rgb(174, 160, 73);
-        }
-    </style>
+    <title>
+        Student table
+    </title>
+   <link rel="shortcut icon" href="../image/Screenshot 2024-10-25 093349.png" type="image/x-icon">
 </head>
-<body>
-    
-    <div class="flex-container">
-        <div class="flex-item" id="flex-item-1">1 box</div>
-        <div class="flex-item" id="flex-item-2">2 box</div>
-        <div class="flex-item" id="flex-item-3">3 box</div>
-        <div class="flex-item" id="flex-item-4">4 box</div>
-        <div class="flex-item" id="flex-item-5">5 box</div>
-        <img src="../image/Screenshot 2024-10-25 093349.png" alt="" srcset="">
-                        
+<body style="background:#ab4b4b3d;display:flex;flex-direction:column;text-align:center;margin:150px;padding:5px;">
+  
+<table border="5" bordercolor="red" wedth="200" height="250" align="center" >
 
-    </div>
+    <tr>
+        <th>Student ID</th>
+        <th>Student Name</th>
+        <th>Division</th>
+        <th>Subject</th>
+        <th>Teacher</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Ashish Beriya</td>
+        <td>A</td>
+        <td>Java</td>
+        <td>Malika seravat</td>
+    </tr>
+    <tr>
+    <td>102</td>
+    <td>Rishabh Yadav</td>
+    <td>B</td>
+    <td>Python</td>
+    <td>Salman khan</td>
+    </tr>
+    <tr>
+        
+    <td>103</td>
+    <td>Amir Khan</td>
+    <td>C</td>
+    <td>PHP</td>
+    <td>Shahrukh Khan</td>
+</tr>
+    <tr>
+        <td>104</td>
+    <td>Massruddin</td>
+    <td>D</td>
+    <td>Mann Stack</td>
+    <td>gauri</td>
+</tr>
+
+    </table>
+  
+    
 </body>
 </html>
