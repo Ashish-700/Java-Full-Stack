@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>controller in angularjs</title>
+    <script src="ang.js"></script>
+</head>
+<body ng-controller="mycontroller">
+
+    <div>
+        <h2>last user name is:{{lastuser}}</h2>
+    </div>
+
+    <script>
+var app=angular.module('my',[]);
+app.controller('mycontroller' ,function($scope){
+    $scope.lastuser="AShish";
+})
+
+
+    </script>
+
+
+    
+</body>
+</html>
